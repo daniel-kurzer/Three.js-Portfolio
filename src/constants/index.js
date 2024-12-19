@@ -72,54 +72,67 @@ import {
     {
       name: "HTML 5",
       icon: html,
+      url: "https://de.wikipedia.org/wiki/HTML5"
     },
     {
       name: "CSS 3",
       icon: css,
+      url: "https://de.wikipedia.org/wiki/Cascading_Style_Sheets#CSS3"
     },
     {
       name: "JavaScript",
       icon: javascript,
+      url: "https://de.wikipedia.org/wiki/JavaScript"
     },
     {
       name: "React Native",
       icon: reactnative,
+      url: "https://reactnative.dev/"
     },
     {
       name: "React JS",
       icon: reactjs,
+      url: "https://react.dev/"
     },
     {
       name: "C#",
       icon: csharp,
+      url: "https://de.wikipedia.org/wiki/C-Sharp"
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
+      url: "https://tailwindcss.com/"
     },
     {
       name: "Node JS",
       icon: nodejs,
+      url: "https://nodejs.org/en"
     },
     {
       name: "SQL Server",
       icon: sql,
+      url: "https://de.wikipedia.org/wiki/Microsoft_SQL_Server"
     },
     {
       name: "Three JS",
       icon: threejs,
+      url: "https://threejs.org/"
     },
     {
       name: "GitHub",
       icon: github_logo,
-    },
+      url: "https://github.com/daniel-kurzer"
+    }, 
     {
       name: "Figma",
       icon: figma,
+      url: "https://www.figma.com/de-de/"
     },
     {
       name: "Blender",
       icon: blender,
+      url: "https://www.blender.org/"
     },
   ];
   

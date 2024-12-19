@@ -4,7 +4,7 @@ import { EarthCanvas, StarsCanvas } from './canvas';
 
 const Preloader = ({ slideUp }) => {
   return (
-    <div style={{ ...styles.loaderContainer, ...(slideUp && styles.slideUp) }}>
+    <div id='loader-div' style={{ ...styles.loaderContainer, ...(slideUp && styles.slideUp) }}>
       <div id='loader-circle' style={styles.loader}></div>
       <div className='loader' style={styles.loaderText}></div>
       <StarsCanvas/>

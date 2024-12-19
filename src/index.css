@@ -134,6 +134,38 @@
   filter: drop-shadow(5px 5px 17px #6f56bb);
 }
 
+#loader-div {
+  animation: fadeIn 2.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#scale-anim {
+  animation: downscale 10.5s ease; 
+}
+
+@keyframes downscale {
+  0% {
+    scale: 1.5;
+    opacity: 0;
+  }
+  50% {
+    scale: 1.25;
+    opacity: 0.1;
+  }
+  100% {
+    scale: 1.0;
+    opacity: 1;
+  }
+}
+
 .loader {
   width: fit-content;
   font-weight: bold;
