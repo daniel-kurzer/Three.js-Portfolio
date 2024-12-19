@@ -7,7 +7,12 @@ import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import { textVariant } from "../utils/motion";
 
-const techBalls = document.querySelectorAll('#tech-balls');
+
+
+
+const Tech = () => {
+
+  const techBalls = document.querySelectorAll('#tech-balls');
 
 techBalls.forEach(ball => {
     ball.addEventListener('mouseover', () => {
@@ -27,9 +32,6 @@ techBalls.forEach(ball => {
         });
     });
 });
-
-
-const Tech = () => {
 
   return (
     <>
